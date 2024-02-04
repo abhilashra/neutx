@@ -137,8 +137,7 @@ public:
 
         buf_t buf;
     };
-
-} __attribute__((packed));
+};
 
 template <typename Data, typename IdxMap>
 IdxMap sarray<Data, IdxMap>::m_map;
